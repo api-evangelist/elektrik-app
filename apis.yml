@@ -1,7 +1,30 @@
 aid: elektrik-app
 name: Elektrik App
-description: Elektrik App is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Elektrik is a medium voltage (MV) equipment procurement platform for
+  electrical distributors, contractors, and Engineering, Procurement &
+  Construction (EPC) firms. Founded in 2020 by Mario Dealba out of the Techstars
+  Alabama EnergyTech Accelerator, the company streamlines sourcing of medium- to
+  high-voltage supplies (roughly 5kV-35kV / 600V-69kV) including MV cable,
+  terminations, splices, deadbreak and loadbreak connectors, and transformers.
+  Buyers build part lists and specifications in the web app and Elektrik surfaces
+  matching products across leading manufacturers such as TE Connectivity, BURNDY,
+  Richards Manufacturing, and PFISTERER, compressing a traditionally slow,
+  quote-driven procurement cycle. Backed by Techstars and growth capital, Elektrik
+  is added to the API Evangelist network for enrichment; the company does not
+  currently publish a public API, developer portal, or OpenAPI.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.elektrikapp.com/elektrik-blue.svg
 url: https://raw.githubusercontent.com/api-evangelist/elektrik-app/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Procurement
+- Medium Voltage
+- Electrical Equipment
+- Energy
+- Supply Chain
+- EPC
+- Marketplace
+- EnergyTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://elektrikapp.com/
+- type: About
+  url: https://www.elektrikapp.com/about-us/index.html
+- type: SignUp
+  url: https://app.elektrikapp.com/signup
+- type: TermsOfService
+  url: https://app.elektrikapp.com/terms
+- type: Blog
+  url: https://www.elektrikapp.com/resources/news
+- type: Podcast
+  url: https://mvexperts.elektrikapp.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elektrikapp
+- type: DomainSecurity
+  url: security/elektrik-app-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
